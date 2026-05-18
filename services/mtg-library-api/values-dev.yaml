@@ -1,6 +1,6 @@
 # Dev environment overrides
 image:
-  tag: mtg-library-api-1.4.0
+  tag: mtg-library-api-1.4.1
 ingress:
   enabled: true
   className: nginx
