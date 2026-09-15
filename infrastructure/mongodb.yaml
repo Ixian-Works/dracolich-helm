@@ -6,10 +6,10 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: default
+  storageClassName: do-block-storage
   resources:
     requests:
-      storage: 10Gi
+      storage: 5Gi
 ---
 apiVersion: apps/v1
 kind: Deployment
