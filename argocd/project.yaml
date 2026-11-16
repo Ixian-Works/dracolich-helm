@@ -6,7 +6,7 @@ metadata:
 spec:
   description: Dracolich services
   sourceRepos:
-    - https://github.com/laasilva/dracolich-helm.git
+    - https://github.com/Ixian-Works/dracolich-helm.git
   destinations:
     - namespace: dracolich-dev
       server: https://kubernetes.default.svc
