@@ -17,7 +17,7 @@ spec:
     spec:
       project: dracolich
       source:
-        repoURL: https://github.com/laasilva/dracolich-helm.git
+        repoURL: https://github.com/Ixian-Works/dracolich-helm.git
         targetRevision: main
         path: services/{{name}}
         helm:
