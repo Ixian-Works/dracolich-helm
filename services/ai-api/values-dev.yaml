@@ -1,5 +1,10 @@
 image:
   tag: ai-api-1.4.0
+env:
+  # The Claude model this environment uses. ai-api has no default for it and
+  # stops at startup when it is missing. Helm merges this with values.yaml's env.
+  ANTHROPIC_MODEL: claude-sonnet-5-5
+
 # Stays internal-only in dev. Network policy (later) should restrict ingress
 # to deck-builder-api as the only allowed source pod.
 ingress:
